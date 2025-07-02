@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te Amo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Corazones -->
+  <canvas id="heart-canvas"></canvas>
+
+  <!-- Texto central -->
+  <div class="center-text">TE AMO</div>
+
+  <!-- Palabras flotantes -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Botón para mostrar carta -->
+  <button class="show-letter-btn" onclick="mostrarCarta()">💖 Haz clic aquí 💖</button>
+
+  <!-- Carta -->
+  <div class="carta" id="carta">
+    <p>Holi mi querida Ang, Feliz primer mes mi amor. Gracias por ser mi alegría, mi apoyo y mi todo.
+      Soy la persona mas afortunda del mundo, por tenerte a mi lado, eres una chica maravillosa, linda, atenta,
+      inteligente y perfecta para mi, eres tu con quien quiero estar el resto de mi vida, eres el amor
+      de mi vida, mi linda novia y esposa, vamos por mas meses y años juntos y sigamos construyendo esto
+      tan lindo y hermoso que tenemos, y sin importar la distancia y el que, siempre te amare, por el
+      resto de mi vida. Cada dia me enamoras mas y mas, y me gusta todo de ti mi amor. 
+    Te amo con todo mi corazón y te elegiría en cada universo, realidades y vidas.
+    
+    Y aquí me tienes, y siempre me tendras, sin importar si es lunes o sábado, verano o invierno, aunque nos separen kilómetros o nos
+      una el silencio; sin importar el momento ni las fechas en el calendario, estoy por ti y para ti, porque eres 
+      el amor de mi eternidad 💖.</p>
+    <button onclick="cerrarCarta()">Cerrar</button>
+  </div>
+
+  <!-- Música de fondo -->
+  <video autoplay loop style="display: none">
+  <source src="musica.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
