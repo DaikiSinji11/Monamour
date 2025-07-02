@@ -1,8 +1,8 @@
 const palabras = [
   "Me encantas", "Preciosa", "Guapa", "Linda", "Mi amor", "Te adoro",
-  "Perfecta", "Bonita", "Mi vida", "Hermosa", "Sole Mio", "Amorcito",
+  "Perfecta", "Bonita", "Mi vida", "Hermosa", "Mon Amour", "Amorcito",
   "Mi niña", "Me gustas", "Te quiero", "Me fascinas", "Mi todo", "Encanto", "Te amo",
-  "Te adoro", "Me enamoras"
+  "Te adoro", "Me enamoras", "Mi corazon"
 ];
 
 const canvas = document.getElementById("canvas");
